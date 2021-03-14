@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
+The source code can be found in the master branch.
+There are some issues with API calls on Github hosting but the project works on the local server.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
