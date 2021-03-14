@@ -1,0 +1,16 @@
+body{
+  position: relative;
+  height: 2826px;
+  background: #FFFFFF;
+}
+
+body p{
+  margin:0;
+}
+
+.bg-amount{
+  background: #E69215;
+  color: #FFFFFF;
+  padding: 1%;
+}
+

@@ -1,0 +1,130 @@
+.Calc-container{
+    width: 20.769230769231%;
+    min-width: 216px;
+
+
+}
+
+#res-container{
+    height: 60px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#res-container p{
+    font-size: 16px;
+    line-height: 19px;
+    color: black !important;
+    margin: 0 !important;
+}
+
+#res-container img{
+    width: 19px;
+    height: 10px;
+}
+
+#res-calculator-container{
+    position: absolute;
+    min-width: 250px;
+    width: 100%;
+    height: 422px;
+    background-color: white;
+    flex-direction: column;
+    margin: 2px;
+    z-index: 1;
+}
+
+#passenger-calc-container{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-self:center;
+    margin-top: 18px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #3999DF;
+    
+}
+
+#passenger-calc{
+    width: 90%;
+    min-width: 205px;
+    align-self: center;
+    display: flex;
+    align-self:center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#passenger-age{
+    height: fit-content;
+    width: fit-content;
+}
+
+#passenger-age h3{
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0 !important;
+
+}
+
+#passenger-age p{
+    font-size: 14px;
+    line-height: 19px;
+    color: #8F8F8F !important;
+    margin: 0 !important;
+}
+
+#passenger-count{
+    display: flex;
+    height: 18px;
+    width: fit-content;
+}
+
+#passenger-count input{
+    width: 45px;
+    border: 1px solid #8F8F8F;
+}
+
+#passenger-count button{
+    width: 19px;
+    border: 1px solid #8F8F8F;
+    text-align: center;
+    padding: 0;
+    
+}
+
+#ticket-class-container{
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 26px;
+    
+}
+
+#ticket-class{
+    font-size: 18px;
+    line-height: 25px;
+    width: fit-content;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+
+#ticket-class input{
+    height: 20px;
+    width: 20px;
+}
+
+#ticket-class label{
+    width: fit-content;
+    display: block;
+    margin-left: 20px;
+}
+

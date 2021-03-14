@@ -1,0 +1,117 @@
+#arrivingTo{
+
+    height: fit-content;
+    background-color: white;
+    margin: 0 2px;
+
+}
+
+#chosen-arriving-city{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: #000000;
+}
+
+#chosen-arriving-city input{
+    height: 60px;
+    width: 69.786096256684%;
+    border:none;
+    align-self: baseline;
+    margin-left: 15px;
+}
+
+
+
+#swip-container{
+    position: absolute;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#swip-container{
+    margin-right:10px
+}
+
+
+#arriving-list{
+    display: none;
+    position: absolute;
+    width: 360px;
+    left: 0;
+}
+
+
+
+#arriving-list ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    margin-bottom: 0;
+}
+
+#arriving-list ul li{
+    height: 50px;
+    background: #FFFFFF;
+    border:2px solid #8F8F8F;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+    padding-right: 8px;
+    /* identical to box height */
+    /*color: #000000;*/
+}
+
+
+#arriving-list li p{
+    margin-left: 0;
+}
+
+
+
+#arriving-list ul li:hover{
+    background: #BADFFB;
+    border-bottom-color: #2488a9;
+}
+
+#direction{
+    /*width: 209px;*/
+    /*height: 25px;*/
+    margin-left: 15px;
+    margin-top: 13px;
+    display: flex;
+    align-items: baseline;
+}
+
+#country{
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    margin-left: 5px;
+    height: fit-content;
+    color: #8F8F8F;
+}
+
+#airport{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    width: 26px;
+    height: 19px;
+    margin-right: 15px;
+
+    color: #8F8F8F;
+    text-align: right;
+}

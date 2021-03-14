@@ -1,0 +1,51 @@
+.flight-date{
+  width: 100%;
+  max-width: 360px;
+  height: 60px;
+  margin-right: 2px;
+}
+
+.flight-date > label{
+  margin: 0;
+}
+.flight-date input{
+  outline: none !important;
+  border: none !important;
+  width: 100%;
+  height: 100%;
+}
+
+.mbsc-textfield-inner,label.mbsc-windows.mbsc-ltr.mbsc-form-control-wrapper.mbsc-textfield-wrapper.mbsc-font.mbsc-textfield-wrapper-box,input.mbsc-windows.mbsc-ltr.mbsc-textfield.mbsc-textfield-box{
+  height: 100%!important;
+  margin: 0;
+}
+.mbsc-windows.mbsc-textfield-box, .mbsc-windows.mbsc-textfield-outline{
+  box-shadow: unset !important;
+}
+
+label.mbsc-material.mbsc-ltr.mbsc-form-control-wrapper.mbsc-textfield-wrapper.mbsc-font.mbsc-textfield-wrapper-box{
+  margin: 0;
+  height: 100%;
+
+}
+
+span.mbsc-material.mbsc-ltr.mbsc-textfield-inner.mbsc-textfield-inner-box {
+  outline: unset!important;
+
+}
+span.mbsc-material.mbsc-ltr.mbsc-textfield-inner.mbsc-textfield-inner-box{
+  height: 100%;
+  background: #FFFFFF !important;
+  border-radius: unset !important;
+}
+
+input.mbsc-material.mbsc-ltr.mbsc-textfield.mbsc-textfield-box{
+  height: 100% !important;
+  border-radius: 0;
+  border: unset !important;
+
+}
+
+.mbsc-windows.mbsc-textfield{
+  border-radius: unset !important;
+}

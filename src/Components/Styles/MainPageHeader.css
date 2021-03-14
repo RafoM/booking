@@ -1,0 +1,251 @@
+#MainPageHeader{
+    background-image: url('/src/images/image_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#header-container{
+    width: 72.222222222222%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#headerMenu{
+    display: flex;
+    height: 19px;
+    justify-content: space-between;
+    align-items: baseline;
+    align-self:flex-end;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin-top: 18px;
+
+}
+
+#language{
+    display: flex;
+    align-items: baseline;
+}
+
+#language img{
+    margin-left: 7px;
+}
+
+#header-heading{
+    width: 56.730769230769%;
+    height: 140px;
+    margin-top: 145px;
+    
+}
+
+#header-heading p{
+    font-weight: bold;
+    font-size: 4vw;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+#search-container{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#prod-type{
+    display: flex;
+    width: 21.057692307692%;
+    height: 36px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+
+#button-container{
+    display: flex;
+    align-items: center;
+    margin:2px 0;
+}
+
+#button-container p{
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 39px;
+}
+
+#find-ticket{
+    padding: 15px;
+    background: #E69215;
+    margin: 0 2px;
+    border:none;
+    width: 100%;
+}
+
+#find-ticket:focus{
+    outline: 0;
+}
+
+
+
+
+#find-ticket img{
+    width: 30px;
+    height: 30px;
+}
+
+.routeType p{
+    color: #FFFFFF;
+    margin: auto;
+    margin-left: 0;
+}
+#departing-lists{
+    display: none;
+}
+#arriving-lists{
+    display: none;
+}
+.departing-list ul{
+    width: 100%;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 100;
+    background: white;
+}
+
+
+.departing-list li{
+    cursor: pointer;
+    list-style: none;
+}
+
+.departing-list li:hover{
+    background: rgba(186, 223, 251, 1);
+}
+
+.departing-list{
+    position: absolute;
+    width: 370px;
+    /*width: 100%;*/
+    background: #fff;
+    left: 0;
+    margin-top: 2px;
+}
+.departing-list .departing-list-cities{
+    /*position: absolute;*/
+    width: 100%;
+    background: #fff;
+    left: 0;
+    /*margin-top: 2px;*/
+}
+
+li.departing-list-item {
+    align-items: baseline;
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid #b3b3b3;
+}
+
+#airportLCode, #direction{
+    padding-right: 3%;
+    padding-bottom: 4%;
+}
+
+.airport-list li:last-child{
+    border-bottom: 0px solid;
+}
+@media only screen and (max-width: 1200px){
+    #header-container{
+        width: 90%;
+
+    }
+}
+
+@media only screen and (max-width: 991px){
+    #header-container{
+        width: 90%;
+    }
+
+    .searchInput {
+        max-width: 49.7%;
+        margin-bottom: 1px;
+    }
+    #find-ticket{
+        padding: 11px;
+        margin: 0 0 0 1px;
+    }
+    .btnSearch{
+        font-weight: 400;
+        font-size: 18px;
+        color: #FFFFFF;
+        margin-right: 5%;
+        display: inline-block;
+    }
+    #find-ticket img {
+         width: auto;
+        height: 39px;
+    }
+    #arrivingTo{
+        margin: 0 0 0 1px;
+    }
+    .btnCol {
+        max-width: 32.5%;
+    }
+}
+
+
+@media only screen and (max-width: 680px){
+    #find-ticket {
+        padding: 18px 0;
+    }
+    .btnSearch {
+        font-size: 14px;
+    }
+    #find-ticket img {
+        height: 22px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+
+    .btnCol{
+        max-width: 100%;
+    }
+    .btnSearch{
+        font-size: 22px;
+    }
+
+    #find-ticket img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .searchInput{
+        max-width: 100%;
+        margin: 0 0 1% 0;
+        padding: 0;
+    }
+
+    #arrivingTo{
+        margin: 0 0 1% 0;
+    }
+
+    #find-ticket{
+        margin: 0;
+        padding: 12px 0;
+    }
+
+    #departing-list, #arriving-list{
+        width: 100%;
+    }
+
+    .mbsc-popup.mbsc-material.mbsc-popup-center{
+        bottom: 80px;
+    }
+
+}
